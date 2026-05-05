@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    /* Alle null*/
+    padding: 0;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/PlaywriteDESAS-Regular.ttf') format('truetype');
+  /* schreibort*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('./fonts/Oswald-Regular.ttf') format('truetype');
+  /* schreibort*/
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar {
+    background-color: rgb(60, 60, 77);
+    display: flex;
+ 
+    gap: 2em;
+  
+    align-items: center;
+    padding: 0.5em 1em;
+}
+.menu-logo svg
+    {
+          fill: white;
+          width: 2.6em;  
+          height:2.6em;
+    }
+.burger-icon {
+    display: none;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    padding: 0.2em;
+}
+
+.menu-such {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0em 15em;
+}
+
+.menu-such input {
+    border-radius: 0.5em;
+    font-size: 1.3em;
+    border: 1px solid white;
+}
+
+.menu-such svg {
+    fill: white;
+}
+
+@media (max-width: 767px) {
+
+
+    .navbar {
+        background-color: rgb(60, 60, 77);
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu-logo svg
+    {
+          fill: white;
+          width: 2.4em;  
+          height:2.4em;
+    }
+    .menu {
+        display: none;
+    }
+
+    .menu-such {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+        color: white;
+        font-size: 2em;
+    }
+.profil img
+{
+    border-radius: 50%;
+    width: 10em ;
+    height: 10em;
+}
+.section-profil
+{
+    text-align: center;
+     font-family: 'Oswald', sans-serif;
+}
+.section-profil p
+{
+    font-size: 1.6em;
+      font-family: 'Roboto', sans-serif;
+}
+
+}
