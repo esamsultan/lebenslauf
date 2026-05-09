@@ -237,7 +237,7 @@ body {
     gap: 0.1em;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5em 0.1em;
+    padding: 0.5em 0.7em;
     overflow: hidden;
 }
 
@@ -259,7 +259,7 @@ body {
 
 #mein-mail , #mein-Handy
 {
- font-size: 1em;
+ font-size: 0.6em;
 }
 
 .Kontaktieren-profil {
