@@ -238,7 +238,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1em 0.7em;
-
+    overflow: hidden;
 }
 
 .Berufserfahrung-subscrib span::before {
@@ -253,7 +253,7 @@ body {
     flex-direction: column;
     text-align: left;
     font-size: 1em;
-    flex: 2;
+    flex: 1;
     color: #2c3e50;
 }
 
@@ -269,7 +269,7 @@ body {
 
 .Kontaktieren-profil img {
     width: 10em;
-    height: 10em;
+    height: 8em;
 }
 
 footer {
