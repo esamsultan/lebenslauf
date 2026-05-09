@@ -252,7 +252,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1em;
     flex: 2;
     color: #2c3e50;
 }
@@ -268,7 +268,7 @@ body {
 }
 
 .Kontaktieren-profil img {
-    width: 12em;
+    width: 10em;
     height: 10em;
 }
 
