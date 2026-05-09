@@ -237,7 +237,7 @@ body {
     gap: 0.1em;
     align-items: center;
     justify-content: space-between;
-    padding: 1em 0.7em;
+    padding: 0.5em 0.1em;
     overflow: hidden;
 }
 
@@ -252,14 +252,14 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-
+    padding: 0em 0.7em;
     flex: 2;
     color: #2c3e50;
 }
 
-.Kontaktieren-subscrib span
+#mein-mail , #mein-Handy
 {
-     font-size: 1em;
+ font-size: 1em;
 }
 
 .Kontaktieren-profil {
