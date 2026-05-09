@@ -3,36 +3,47 @@ body {
     /* Alle null*/
     padding: 0;
 }
+
 @font-face {
-  font-family: 'Roboto';
-  src: url('./fonts/PlaywriteDESAS-Regular.ttf') format('truetype');
-  /* schreibort*/
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('./fonts/PlaywriteDESAS-Regular.ttf') format('truetype');
+    /* schreibort*/
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Oswald';
-  src: url('./fonts/Oswald-Regular.ttf') format('truetype');
-  /* schreibort*/
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Oswald';
+    src: url('./fonts/Oswald-Regular.ttf') format('truetype');
+    /* schreibort*/
+    font-weight: normal;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Medium';
+    src: url('./fonts/Oswald-Medium.ttf') format('truetype');
+    /* schreibort*/
+    font-weight: normal;
+    font-style: normal;
+}
+
 .navbar {
     background-color: rgb(60, 60, 77);
     display: flex;
- 
+
     gap: 2em;
-  
+
     align-items: center;
     padding: 0.5em 1em;
 }
-.menu-logo svg
-    {
-          fill: white;
-          width: 2.6em;  
-          height:2.6em;
-    }
+
+.menu-logo svg {
+    fill: white;
+    width: 2.6em;
+    height: 2.6em;
+}
+
 .burger-icon {
     display: none;
     color: white;
@@ -63,50 +74,212 @@ body {
     fill: white;
 }
 
-@media (max-width: 767px) {
-
-
-    .navbar {
-        background-color: rgb(60, 60, 77);
-        display: flex;
-        gap: 1em;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .menu-logo svg
-    {
-          fill: white;
-          width: 2.4em;  
-          height:2.4em;
-    }
-    .menu {
-        display: none;
-    }
-
-    .menu-such {
-        display: none;
-    }
-
-    .burger-icon {
-        display: block;
-        color: white;
-        font-size: 2em;
-    }
-.profil img
+@media (max-width: 767px) 
 {
+
+.dotted-line {
+    border: none;
+    border-top: 1px dotted #ccc;
+    margin: 0.5em 0em;
+    width: 60%;
+}
+
+.solid-line {
+    border: none;
+    border-top: 1px dotted #ccc;
+    background-color: #478dc6;
+    width: 60%;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(60, 60, 77);
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-logo svg {
+    fill: white;
+    width: 2.4em;
+    height: 2.4em;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-such {
+    display: none;
+}
+
+.burger-icon {
+    display: block;
+    color: white;
+    font-size: 2em;
+}
+
+.profil img {
     border-radius: 50%;
-    width: 10em ;
+    width: 10em;
     height: 10em;
 }
-.section-profil
-{
+
+.section-profil {
     text-align: center;
-     font-family: 'Oswald', sans-serif;
-}
-.section-profil p
-{
-    font-size: 1.6em;
-      font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: #f8f9fa;
+    Border: 1px solid #e9ecef
 }
 
+.section-profil p {
+    font-size: 1.6em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Ausbildung {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 1em;
+    background-color: #f4f7f9;
+
+}
+
+.Ausbildung-profil img {
+    width: 7em;
+    height: 10em;
+}
+
+.Berufserfahrung-profil img,
+.Kontaktieren-profil img {
+    width: 10em;
+    height: 10em;
+}
+
+.Ausbildung-profil {
+    flex: 1;
+}
+
+.Ausbildung-subscrib {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    color: #2c3e50;
+}
+
+.Ausbildung-subscrib span {
+    /* text-align: justify; */
+    font-size: 1.1em;
+
+}
+
+#Universität,
+#Weiterbildung,
+#Sprachkenntnisse {
+    font-size: 1.3em;
+    color: #478dc6;
+    font-family: 'Medium', sans-serif;
+}
+
+.Berufserfahrung,
+.Sprach {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 1em;
+    Border: 1px solid #e9ecef;
+
+}
+
+.Berufserfahrung {
+    background-color: #f8f9fa;
+}
+
+.Berufserfahrung-subscrib {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    color: #2c3e50;
+}
+
+.Sprach {
+    background-color: #f4f7f9;
+
+}
+
+.Berufserfahrung-profil {
+    flex: 1;
+}
+
+.Sprach-subscrib {
+    display: flex;
+    flex-direction: column;
+    color: #2c3e50;
+}
+
+.sprache-profil img {
+    width: 8em;
+    height: 8em;
+}
+
+.Kontaktieren {
+    text-align: center;
+    background-color: #f8f9fa;
+    Border: 1px solid #e9ecef
+}
+
+.Kontaktieren-all {
+    display: flex;
+    gap: 0.1em;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0.7em;
+
+}
+
+.Berufserfahrung-subscrib span::before {
+    content: "\27A4";
+    color: #478dc6;
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+
+.Kontaktieren-subscrib {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.2em;
+    flex: 2;
+    color: #2c3e50;
+}
+
+.Kontaktieren-profil {
+    flex: 1;
+}
+
+#Kontaktieren-title {
+    font-size: 1.7em;
+    color: #478dc6;
+    font-family: 'Medium', sans-serif;
+}
+
+.Kontaktieren-profil img {
+    width: 12em;
+    height: 10em;
+}
+
+footer {
+    background-color: #2C3E50;
+    padding: 0.4em 0.4em;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 0;
+}
+footer p{
+font-size: 1.3em;
+}
 }
