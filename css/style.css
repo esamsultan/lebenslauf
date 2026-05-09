@@ -252,9 +252,14 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    font-size: 1em;
+
     flex: 2;
     color: #2c3e50;
+}
+
+.Kontaktieren-subscrib span
+{
+     font-size: 1em;
 }
 
 .Kontaktieren-profil {
