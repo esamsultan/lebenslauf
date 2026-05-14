@@ -99,10 +99,9 @@ body {
         justify-content: space-between;
     }
 
-    .menu-logo svg {
-        fill: white;
-        width: 2.4em;
-        height: 2.4em;
+    .menu-logo img {
+        width: 3em;
+        height: 3em;
     }
 
     .menu {
@@ -252,7 +251,7 @@ body {
         flex-direction: column;
         text-align: left;
         padding: 0em 0.7em;
-        
+
         color: #2c3e50;
     }
 
@@ -261,9 +260,7 @@ body {
         font-size: 0.8em;
     }
 
-    .Kontaktieren-profil {
-       
-    }
+    .Kontaktieren-profil {}
 
     #Kontaktieren-title {
         font-size: 1.7em;
@@ -277,14 +274,24 @@ body {
     }
 
     footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         background-color: #2C3E50;
-        padding: 0.4em 0.4em;
-        text-align: center;
+
+        justify-content: center;
         color: aliceblue;
         margin-bottom: 0;
     }
 
     footer p {
         font-size: 1.3em;
+
+    }
+
+    footer img {
+        width: 4em;
+        height: 4em;
+
     }
 }
