@@ -92,7 +92,7 @@ body {
     }
 
     .navbar {
-        background-color: rgb(60, 60, 77);
+         background-image: linear-gradient(to right, #07bedf, #c7d0d4);
         display: flex;
         gap: 1em;
         align-items: center;
@@ -118,7 +118,7 @@ body {
         font-size: 2em;
     }
 
-    .profil img {
+    .fot{
         border-radius: 50%;
         width: 10em;
         height: 10em;
@@ -128,7 +128,7 @@ body {
         text-align: center;
         font-family: 'Oswald', sans-serif;
         background-color: #f8f9fa;
-        Border: 1px solid #e9ecef
+        Border: 1px solid #e9ecef;
     }
 
     .section-profil p {
@@ -277,7 +277,7 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        background-color: #2C3E50;
+        background-image: linear-gradient(to right, #07bedf, #c7d0d4);
 
         justify-content: center;
         color: aliceblue;
@@ -294,5 +294,8 @@ body {
         height: 4em;
 
     }
-
+.rosa{
+    width: 2.1cm;
+    height:auto;
+}
 }
