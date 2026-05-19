@@ -28,6 +28,21 @@ body {
     font-style: normal;
 }
 
+@media (min-width: 767px) {
+
+    header,
+    main,
+    footer,
+    .nav-menu {
+        display: none;
+    }
+
+    .handy {
+        display: flex;
+    }
+
+}
+
 .navbar {
     background-color: rgb(60, 60, 77);
     display: flex;
@@ -76,6 +91,10 @@ body {
 
 @media (max-width: 767px) {
 
+    .handy {
+        display: none;
+    }
+
     .dotted-line {
         border: none;
         border-top: 1px dotted #ccc;
@@ -92,7 +111,7 @@ body {
     }
 
     .navbar {
-         background-image: linear-gradient(to right, #07bedf, #c7d0d4);
+        background-image: linear-gradient(to right, #07bedf, #c7d0d4);
         display: flex;
         gap: 1em;
         align-items: center;
@@ -119,7 +138,7 @@ body {
         cursor: pointer;
     }
 
-    .fot{
+    .fot {
         border-radius: 50%;
         width: 10em;
         height: 10em;
@@ -295,49 +314,50 @@ body {
         height: 4em;
 
     }
-.rosa{
-    width: 2.1cm;
-    height:auto;
-}
 
-  /* ----------------------------------- */
-.nav-menu {
-  position: absolute;
-  top: -300px;
-  left: 0;
-  width: 100%;
-  background-color: #ffffff;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s ease-in-out; 
-  z-index: 99;
-}
+    .rosa {
+        width: 2.1cm;
+        height: auto;
+    }
 
-.nav-menu.active {
-  top: 60px; 
-}
+    /* ----------------------------------- */
+    .nav-menu {
+        position: absolute;
+        top: -300px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s ease-in-out;
+        z-index: 99;
+    }
 
-.nav-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+    .nav-menu.active {
+        top: 60px;
+    }
 
-.nav-menu ul li {
-  text-align: center;
-  border-bottom: 1px solid #f0f0f0;
-}
+    .nav-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
 
-.nav-menu ul li a {
-  display: block;
-  padding: 15px;
-  text-decoration: none;
-  color: #1f1f1f;
-  font-family: sans-serif;
-  font-weight: bold;
-}
+    .nav-menu ul li {
+        text-align: center;
+        border-bottom: 1px solid #f0f0f0;
+    }
 
-.nav-menu ul li a:hover {
-  background-color: #f5f5f5;
-}
+    .nav-menu ul li a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: #1f1f1f;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .nav-menu ul li a:hover {
+        background-color: #f5f5f5;
+    }
 
 }
